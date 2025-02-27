@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">17_02_25_FirstDemoApplication</string>
+    <string name="course_name">Android</string>
+    <string name="student_name">Adinath</string>
+
+    <string-array name="languages">
+        <item>Cpp</item>
+        <item>Java</item>
+        <item>Kotlin</item>
+        <item>Swift</item>
+        <item>C</item>
+    </string-array>
 </resources>

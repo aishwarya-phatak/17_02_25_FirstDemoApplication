@@ -16,11 +16,7 @@
 
     <TextView
         android:id="@+id/welcomeTxtView"
-        android:layout_width="160dp"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="20dp"
+        style="@style/my_style_1"
         android:gravity="center_horizontal"
         android:text="Hello World!"
         android:textSize="20sp"
@@ -29,22 +25,14 @@
 
     <EditText
         android:id="@+id/edtUserName"
-        android:layout_width="160dp"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="20dp"
+        style="@style/my_style_1"
         android:hint="Enter your name"
         app:layout_constraintLeft_toRightOf="@id/imgView"
         app:layout_constraintTop_toBottomOf="@id/welcomeTxtView" />
 
     <Button
         android:id="@+id/btnSubmit"
-        android:layout_width="160dp"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="20dp"
+        style="@style/my_style_1"
         android:text="Submit"
         android:textSize="10sp"
         app:layout_constraintLeft_toRightOf="@id/imgView"
