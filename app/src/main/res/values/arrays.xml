@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="colours">
+        <item>Blue</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Red</item>
+        <item>White</item>
+    </array>
+</resources>
